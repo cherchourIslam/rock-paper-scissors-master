@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  <div class="container">
+  <header>
+   <img src="images\logo-bonus.svg" alt="logo" class="logo"/>
+
+    <div class="score">
+      <h3 >Score</h3>
+      <p class="score-number">0</p>
+    </div>
+  </header>
+
+  <section class="main">
+
+
+    <button class="choice-btn" data-choice="scissors">
+      <div class="choice scissors">
+        <img src="images/icon-scissors.svg" alt="scissors" />
+      </div>
+    </button>
+
+    <button class="choice-btn" data-choice="paper">
+      <div class="choice paper">
+        <img src="images/icon-paper.svg" alt="paper" />
+      </div>
+    </button>
+
+    <button class="choice-btn" data-choice="rock">
+      <div class="choice rock">
+        <img src="images/icon-rock.svg" alt="rock" />
+      </div>
+    </button>
+
+    <button class="choice-btn" data-choice="lizard">
+      <div class="choice lizard">
+        <img src="images/icon-lizard.svg" alt="lizard" />
+      </div>
+    </button>
+    
+    <button class="choice-btn" data-choice="spock">
+      <div class="choice spock">
+        <img src="images/icon-spock.svg" alt="spock" />
+      </div>
+    </button>
+
+
+  </section>
+
+  <section class="result hidden">
+    <h2 class="result-title">
+      You Picked
+    </h2>
+    <h2 class="result-title">
+      The House Picked
+    </h2>
+
+    <div class="result-winner hidden">
+      <h3 class="result-text"></h3>
+      <button class="play-again hidden">play again</button>
+    </div>
+    <div class="result-img">
+      
+    </div>
+
+    <div class="result-img">
+      
+    </div>
+
+
+</section>
+
+</div>
+<!-- *************************  rules modal *************************** -->
+  <button class="rules-btn">rules</button>
+  <div class="modal">
+     <div class="modal-container">
+      <div class="modal-header">
+        <h2>rules</h2>
+        <button class="close-btn"><img src="images/icon-close.svg" alt="icon close"></button>
+      </div>
+      <img src="images/image-rules-bonus.svg" alt="rules">
+     </div>
+  </div>
+
+
+  <footer>
+    Challenge by
+    <a href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub/rock-paper-scissors-game-Q0DAPrqzS" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="https://github.com/cherchourIslam">CHERCHOUR ISLAM</a>.
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
